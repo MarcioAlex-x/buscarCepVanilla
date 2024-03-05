@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    background-image: url(Design\ sem\ nome\ \(3\).gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    padding: 5em;
+}
+h1{
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+}
+#buscaCep{
+    width: 80%;
+    margin:auto;
+    background-color: rgba(240, 248, 255, 0.281);
+    border-radius: 2em;
+    margin-top: 1em;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);    
+    padding: 5em;   
+    display: flex;
+    flex-direction: column;
+    
+}
+#formCep{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+label{
+    margin-block: 1em;
+    display: flex;
+    flex-direction: column;
+}
+span{
+    margin-bottom: .5rem;
+}
+input{
+    height: 2em;
+    border: none;
+    outline: none;
+    padding: .3em;
+}
+button{
+    border: none;
+    background-color: #52F94E;
+    color: #202020;
+    padding: .5em;
+    margin-top: .5em;
+    border-radius: .4em;
+    color: white;
+}
+#address{
+    text-align: center;
+    margin-top: 2em;
+}
+#limpar{
+    background-color: #202020;
+    margin: auto;
+    margin-top: 1rem;
+}
+button{
+    cursor: pointer;
+}
