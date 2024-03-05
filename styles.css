@@ -61,6 +61,8 @@ button{
 #address{
     text-align: center;
     margin-top: 2em;
+    font-size: 2em;
+    font-weight: bold;
 }
 #limpar{
     background-color: #202020;
